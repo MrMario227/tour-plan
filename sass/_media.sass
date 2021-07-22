@@ -23,9 +23,28 @@
       max-width: 320px
 @media ( max-width: 768px)
   .container
-    max-width: 576px
-    width: 92%
+    max-width: 700px
+    width: 95%
   .navbar
+    &-top
+      padding-top: 30px
+      padding-bottom: 30px
+    &-menu
+      padding-top: 22px
+      padding-bottom: 22px
+  .search
+    &__input
+      max-width: 315px
+      padding-left: 0
+@media ( max-width: 635px)
+  .container
+    max-width: 280px
+  .logo
+    width: 99px
+  .navbar
+    &-top
+      padding-top: 24px
+      padding-left: 5px
     &-menu, &__search, &__user
       display: none
   .menu
@@ -44,10 +63,3 @@
         width: 16px
         height: 1px
         background-color: $text-color
-@media ( max-width: 576px)
-  .logo
-    width: 99px
-  .navbar
-    &-top
-      padding-top: 24px
-      padding-left: 5px
